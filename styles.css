@@ -1,0 +1,76 @@
+/* Resetting default margin and padding */
+/* ... (Previous CSS code remains unchanged) ... */
+
+header {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #4caf50;
+}
+
+.voting-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.party {
+  text-align: center;
+  margin: 10px;
+}
+
+.party img {
+  width: 100px; /* Adjust size as needed */
+}
+
+.party p {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.vote-button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.vote-button:hover {
+  background-color: #45a049;
+}
